@@ -1,8 +1,8 @@
 .root {
 
     --blackColor: #0D0D0D;
-    --darkColor: #262626;
-    --lightBlueColor: #A8BDBF;
+    --darkColor: #181818;
+    --lightBlueColor: #d1eaec;
     --blueSecondaryColor: #A1B6BB;
     --blueColor: #86A0A6;
 
@@ -12,7 +12,7 @@
 
 
 body {
-    background-color: #262626;
+    background-color: #181818;
     
     font-family: 'Shippori Antique B1', sans-serif;
 }
@@ -55,19 +55,40 @@ body {
 /*OPTIONS*/
 .firstOptions {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    flex-grow: 1;
+    align-items: center;
+    justify-content: center;;
+    
+    padding: 0 auto;
+
 }
 
 .option {
-    background-color: #fff;
 
-    color: #000;
+    text-align: center;
+    text-decoration: none;
 
-    padding: 30px;
+    background-color: #77bdd9;
+    color: #fff;
+
+    width: 30%;
+
+    padding: 30px 0;
+    margin: 10px;
 
     border-radius: 20px;
+    
+    box-shadow: 0 0 3px #000;
+
 }
+
+.option:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 /*OPTIONS*/
 
